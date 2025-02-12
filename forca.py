@@ -222,6 +222,7 @@ st.text(desenhar_boneco(st.session_state.tentativas_restantes))
 # Área para entrada de dados do jogador
 col1, col2 = st.columns([2, 1])
 with col1:
+    letra = ""
     letra = st.text_input("Digite uma letra:", max_chars=1, key="input_letra").lower()
 with col2:
     if st.button("Enviar"):
