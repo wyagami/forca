@@ -10,6 +10,8 @@ st.sidebar.write("""
 - Você tem 6 tentativas para adivinhar a palavra.
 - Cada vitória soma 10 pontos, e cada derrota subtrai 5 pontos.
 - Boa sorte!
+- Caso tenha alguma idéia para publicarmos, envie uma mensagem para: 11-990000425 (Willian)
+- Contribua com qualquer valor para mantermos a pagina no ar. PIX (wpyagami@gmail.com)
 """)
 
 # Lista de palavras organizadas por categorias
