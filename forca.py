@@ -14,10 +14,90 @@ st.sidebar.write("""
 
 # Lista de palavras organizadas por categorias
 palavras = {
-    "Animais": ["cachorro", "gato", "vaca", "galinha", "porco", "pato"],
-    "Frutas": ["banana", "maca", "laranja", "uva", "morango"],
-    "Cores": ["vermelho", "azul", "amarelo", "verde", "roxo"],
-    "Natureza": ["sol", "lua", "estrela", "arvore", "flor"]
+    "Animais": [
+        "cachorro", "gato", "vaca", "galinha", "porco",
+        "pato", "coelho", "cavalo", "ovelha", "cabra",
+        "leão", "tigre", "elefante", "zebra", "girafa",
+        "hipopótamo", "rinoceronte", "camelo", "urso", "crocodilo"
+    ],
+    "Frutas": [
+        "banana", "maçã", "laranja", "uva", "morango",
+        "abacaxi", "melancia", "kiwi", "pêssego", "pera",
+        "manga", "caju", "acerola", "goiaba", "carambola",
+        "pitanga", "abacate", "maracujá", "tangerina", "limão"
+    ],
+    "Cores": [
+        "vermelho", "azul", "amarelo", "verde", "roxo",
+        "laranja", "rosa", "marrom", "cinza", "preto",
+        "branco", "violeta", "turquesa", "índigo", "magenta",
+        "coral", "esmeralda", "dourado", "prateado", "bege"
+    ],
+    "Natureza": [
+        "sol", "lua", "estrela", "árvore", "flor",
+        "montanha", "rio", "lago", "floresta", "oceano",
+        "deserto", "vulcão", "campo", "grama", "nuvem",
+        "tempestade", "arco-íris", "relâmpago", "neve", "areia"
+    ],
+    "Países": [
+        "brasil", "argentina", "canadá", "estados-unidos", "méxico",
+        "frança", "alemanha", "itália", "espanha", "portugal",
+        "rússia", "japão", "china", "índia", "austrália",
+        "egito", "turquia", "coreia do sul", "suécia", "noruega"
+    ],
+    "Cidades": [
+        "são paulo", "rio de janeiro", "brasília", "salvador", "fortaleza",
+        "belo horizonte", "curitiba", "recife", "porto alegre", "manaus",
+        "belém", "goiânia", "campinas", "vitória", "são luís",
+        "maceió", "natal", "florianópolis", "joão pessoa", "aracaju"
+    ],
+    "Esportes": [
+        "futebol", "basquete", "vôlei", "tênis", "natação",
+        "atletismo", "ciclismo", "boxe", "judô", "karatê",
+        "ginástica", "esgrima", "beisebol", "críquete", "hóquei",
+        "rugby", "polo", "surfe", "skate", "escalada"
+    ],
+    "Profissões": [
+        "engenheiro", "médico", "advogado", "professor", "arquiteto",
+        "enfermeiro", "dentista", "jornalista", "policial", "bombeiro",
+        "empresário", "contador", "psicólogo", "veterinário", "artista",
+        "designer", "programador", "cozinheiro", "piloto", "motorista"
+    ],
+    "Instrumentos": [
+        "violão", "piano", "bateria", "violino", "saxofone",
+        "guitarra", "flauta", "clarinete", "trompete", "contrabaixo",
+        "órgão", "acordeão", "harpa", "banjo", "mandolim",
+        "cello", "oboé", "fagote", "maracas", "sintetizador"
+    ],
+    "Filmes": [
+        "inception", "avatar", "matrix", "titanic", "gladiador",
+        "jurassic park", "interstellar", "batman", "superman", "up",
+        "frozen", "avengers", "indiana jones", "rocky", "forrest gump",
+        "star wars", "harry potter", "lord of the rings", "shawshank", "godfather"
+    ],
+    "Objetos": [
+        "cadeira", "mesa", "computador", "televisão", "celular",
+        "geladeira", "micro-ondas", "fogão", "sofá", "cama",
+        "armário", "lâmpada", "livro", "relógio", "espelho",
+        "ventilador", "quadro", "caneta", "copo", "garrafa"
+    ],
+    "Tecnologia": [
+        "smartphone", "internet", "software", "hardware", "robô",
+        "computador", "tablet", "drone", "inteligência artificial", "realidade virtual",
+        "3d-impressão", "cloud computing", "big data", "blockchain", "cybersecurity",
+        "nanotecnologia", "automação", "wearable", "data center", "algoritmo"
+    ],
+    "Insetos": [
+        "abelha", "formiga", "borboleta", "mosca", "barata",
+        "besouro", "libélula", "gafanhoto", "mariposa", "cupim",
+        "cigarra", "percevejo", "pulga", "mosquito", "joaninha",
+        "grilo", "lagarta", "colémbolo", "traça", "cigarrinha"
+    ],
+    "Comidas": [
+        "pizza", "hambúrguer", "sushi", "lasanha", "salada",
+        "feijoada", "churrasco", "coxinha", "pastel", "brigadeiro",
+        "macarrão", "arroz", "bife", "frango", "peixe",
+        "sopa", "omelete", "quibe", "empada", "torta"
+    ]
 }
 
 # Inicializar o estado do jogo, se necessário
