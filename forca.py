@@ -156,7 +156,7 @@ with col2:
         else:
             st.warning("Por favor, insira uma letra válida.")
         # Reexecuta o script para atualizar todas as informações na tela
-        st.experimental_rerun()
+        st.rerun()
 
 # Verificar se o jogador venceu ou perdeu
 if verificar_vitoria():
@@ -165,7 +165,7 @@ if verificar_vitoria():
     tocar_som(True)
     if st.button("Jogar novamente"):
         reiniciar_jogo()
-        st.experimental_rerun()
+        st.rerun()
 
 elif st.session_state.tentativas_restantes <= 0:
     st.error(f"Você perdeu! A palavra era: {st.session_state.palavra_secreta}")
@@ -173,4 +173,4 @@ elif st.session_state.tentativas_restantes <= 0:
     tocar_som(False)
     if st.button("Jogar novamente"):
         reiniciar_jogo()
-        st.experimental_rerun()
+        st.rerun()
